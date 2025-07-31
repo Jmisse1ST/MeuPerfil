@@ -1,11 +1,17 @@
 
 import './App.css'
+import TechBadges from './section/sobre'
+
+import Sobre from './section/sobre'
+
 
 function App() {
  
   return (
+  
     <>
-       <h1 class="text-3xl font-bold underline">    Testando As Configuracos!  </h1>
+    <Sobre/>
+    <TechBadges/>
     </>
   )
 }
