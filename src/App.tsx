@@ -1,8 +1,9 @@
 
 import './App.css'
-import TechBadges from './section/sobre'
+import CardWhat from './section/CardWhat'
+import JemisseCta from './section/cta'
+import CardUnilib from './section/Projectos'
 
-import Sobre from './section/sobre'
 
 
 function App() {
@@ -10,8 +11,10 @@ function App() {
   return (
   
     <>
-    <Sobre/>
-    <TechBadges/>
+    <JemisseCta/>
+    <CardUnilib/>
+    <CardWhat/>
+   
     </>
   )
 }

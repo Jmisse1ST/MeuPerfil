@@ -3,7 +3,7 @@
 function JemisseCta() {
   return (
     <div className="bg-gray-900">
-      
+
       <div className="w-screen h-screen mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
@@ -28,7 +28,7 @@ function JemisseCta() {
               Apaixonado por tecnologia.
             </h2>
             <p className="mt-6 text-lg/8 text-pretty text-gray-400">
-               Eu sou um Software Developer com mais de 2 anos de experiência em prover soluções para problemas usando tecnologia.
+              Eu sou um Software Developer com mais de 2 anos de experiência em prover soluções para problemas usando tecnologia.
             </p>
             <div className="mt-10 flex   gap-x-6 lg:justify-start">
               <a
@@ -41,15 +41,15 @@ function JemisseCta() {
               <a href="#" className="rounded-md bg-gray-900 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                 LinkedIn
                 <span aria-hidden="true">→</span>
-      
+
               </a>
             </div>
           </div>
           <br />
           <br />
           <br />
-          
-          
+
+
         </div>
       </div>
     </div>
