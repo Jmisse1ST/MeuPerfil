@@ -78,7 +78,9 @@ function CardUnilib() {
             <div className="absolute inset-x-1 top-1 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
               <img
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/component-images/bento-03-mobile-friendly.png"
+                
+                src='/image.png'
+                
                 className="size-full object-cover object-top"
               />
             </div>
