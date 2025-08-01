@@ -79,7 +79,7 @@ function CardUnilib() {
               <img
                 alt=""
                 
-                src='/image.png'
+                src='/unilib.png'
                 
                 className="size-full object-cover object-top"
               />
