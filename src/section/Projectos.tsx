@@ -56,7 +56,10 @@ function CardUnilib() {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base/7 font-semibold bg-gradient-to-t from-sky-400 via-gray-50 to-sky-500 bg-clip-text text-transparent">Visitar</p>
+                <p className="text-base/7 font-semibold bg-gradient-to-t from-sky-400 via-gray-50 to-sky-500 bg-clip-text text-transparent">
+              g
+                 <span className="border border-gray-300 rounded px-2 py-1 text-sm">Visitar</span>
+                </p>
                 <h1 className="mt-2 text-4xl font-semibold tracking-tight bg-gradient-to-b from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
                   UniLib
                 </h1>
@@ -90,14 +93,14 @@ function CardUnilib() {
               py-9
               ">
 
-                <div className="flex flex-wrap gap-2">
-                  <span className="border border-gray-00 rounded px-2 py-1 text-sm">TypeScript</span>
+                <div className="flex flex-wrap gap-2 text-xl/8 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">TypeScript</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">Node</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">React</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">HTML5</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">Tailwind</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git(Hub)</span>
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git actions</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git Actions</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">Vercel</span>
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm">MySql</span>
                 </div>
