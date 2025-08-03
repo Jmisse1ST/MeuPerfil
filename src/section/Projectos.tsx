@@ -2,8 +2,6 @@ function CardUnilib() {
   return (
 
 
-
-
     <div className="relative isolate overflow-hidden bg-white px-3 py-20 sm:py-32 lg:overflow-visible lg:px-0 ">
       <div className="absolute inset-0 -z-10 overflow-hidden">
 
@@ -65,7 +63,7 @@ function CardUnilib() {
                 <p className="mt-3 text-xl/8 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
                   Encontre seus materiais acadêmicos, por curso, ano e disciplina. visualize as datas de entrega dos seus trabalhos e de realização de testes, e nunca perca horário.
 
-                 
+
                 </p>
               </div>
             </div>
@@ -78,9 +76,9 @@ function CardUnilib() {
             <div className="absolute inset-x-1 top-1 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
               <img
                 alt=""
-                
+
                 src='/unilib.png'
-                
+
                 className="size-full object-cover object-top"
               />
             </div>
@@ -91,11 +89,18 @@ function CardUnilib() {
               <div className="max-w-xl text-base/7 text-gray-600 lg:max-w-lg
               py-9
               ">
-                <p>
-                  TypeScript  Nodejs  Tailwind-CCS Git(Hub) Git actions Vercel MySql
- 
- 
-                </p>
+
+                <div className="flex flex-wrap gap-2">
+                  <span className="border border-gray-00 rounded px-2 py-1 text-sm">TypeScript</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Node</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">React</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">HTML5</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Tailwind</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git(Hub)</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git actions</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Vercel</span>
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">MySql</span>
+                </div>
               </div>
             </div>
           </div>
