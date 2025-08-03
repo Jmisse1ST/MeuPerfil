@@ -20,17 +20,17 @@ function JemisseCta() {
             </defs>
           </svg>
           <div className="mx-auto max-w-md lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <p className="text-sky-600">String nome = "James";</p>
+            <p className="text-sky-600 font-mono">String nome = "James";</p>
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
               Jemisse Macuacua.
             </h2>
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl">
               Apaixonado por tecnologia.
             </h2>
-            <p className="mt-6 text-lg/8 text-pretty text-gray-400">
-              Eu sou um Software Developer com mais de 2 anos de experiência em prover soluções para problemas usando tecnologia.
+            <p className="mt-6 text-lg/8 text-pretty text-gray-400  font-mono">
+              Eu sou um Software Developer com mais de 1 ano de experiência em prover soluções para problemas usando tecnologia.
             </p>
-            <div className="mt-10 flex   gap-x-6 lg:justify-start">
+            <div className="mt-10 flex   gap-x-6 lg:justify-start font-mono">
               <a
                 href="#"
                 className="rounded-md bg-sky-700 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
