@@ -1,5 +1,4 @@
 
-
 function JemisseCta() {
   return (
     <div className="bg-gray-900">
@@ -32,13 +31,13 @@ function JemisseCta() {
             </p>
             <div className="mt-10 flex   gap-x-6 lg:justify-start font-mono">
               <a
-                href="#"
+                href="mailto:macuacuajemisse@gmail.com"
                 className="rounded-md bg-sky-700 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 {' '}
                 Contactar-me{' '}
               </a>
-              <a href="#" className="rounded-md bg-gray-900 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+              <a href="https://www.linkedin.com/in/jemisse-macu%C3%A1cua-5999b62bb/" className="rounded-md bg-gray-900 px-3.5 py-3.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
                 LinkedIn
                 <span aria-hidden="true">→</span>
 
