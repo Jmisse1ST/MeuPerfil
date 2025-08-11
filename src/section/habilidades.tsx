@@ -1,4 +1,4 @@
-function Sobre() {
+function Habilidades() {
   return (
 
 
@@ -84,6 +84,6 @@ function Sobre() {
   )
 }
 
-export default Sobre;
+export default Habilidades;
 
 
