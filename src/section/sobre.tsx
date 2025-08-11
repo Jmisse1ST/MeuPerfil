@@ -37,7 +37,7 @@ function Sobre() {
         <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl text-center">
           Sobre Mim
         </h2>
-        <p className="text-center py-3 font-mono ">
+        <p className="text-center py-3 font-mono md:w-1/2 mx-auto">
           Com um conjunto de habilidades que incluem full-stack development, architecture, system design, devOps, sou um profissional completo na aréa de engenharia de software.
         </p>
 
@@ -60,7 +60,7 @@ function Sobre() {
 
                   <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono"></span>
                 </p>
-                <h1 className="mt-2 text-4xl font-semibold text-gray-500">
+                <h1 className="mt-2 text-2xl font-semibold text-gray-500">
                   Jemisse
                 </h1>
                 <p className="mt-3 text-xl/10 text-gray-600 font-sans ">

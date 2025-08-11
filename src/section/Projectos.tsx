@@ -34,10 +34,10 @@ function CardUnilib() {
 
 
       <>
-        <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl text-center">
+        <h2 className="text-4xl font-semibold tracking-tight text-balance text-gray-600 sm:text-4xl text-center ">
           Projectos em Destaque
         </h2>
-        <p className="text-center py-3 font-mono ">
+        <p className="text-center py-3 font-mono md:w-1/2 mx-auto ">
           Focado em experiências, soluções e inovação.
         </p>
         <br />
