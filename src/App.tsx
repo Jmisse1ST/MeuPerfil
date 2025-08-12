@@ -7,6 +7,7 @@ import ColorChangingFooter from './section/Footer'
 import Habilidades from './section/habilidades'
 import CardUnilib from './section/CardProjectos/UniLib'
 import Sobre from './section/sobre'
+import CardFilmes from './section/CardProjectos/WhatMovie'
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <JemisseCta />
       <CardUnilib />
+      <CardFilmes/>
       <Sobre/>
       <Habilidades/>
       <ColorChangingFooter />
