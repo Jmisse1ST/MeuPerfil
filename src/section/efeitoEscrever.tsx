@@ -5,7 +5,7 @@ const EfeitoEscrever = () => {
     'String UserName = "James";',
     'Eu sou um Software Developer.',
     'Resolvo problemas por meio da tecnologia.',
-    'And i love to drive ideas to reality!'
+    'I love to drive ideas to reality!'
   ];
   const [text, setText] = useState('');
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
