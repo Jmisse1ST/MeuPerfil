@@ -5,7 +5,7 @@ import JemisseCta from './section/cta'
 import ColorChangingFooter from './section/Footer'
 
 import Habilidades from './section/habilidades'
-import CardUnilib from './section/Projectos'
+import CardUnilib from './section/CardProjectos/UniLib'
 import Sobre from './section/sobre'
 
 
