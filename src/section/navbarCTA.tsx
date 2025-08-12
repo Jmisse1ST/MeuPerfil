@@ -21,7 +21,7 @@ const NavbarCTA = () => {
           {/* Logo - Lado Esquerdo */}
           <a 
             href="/" 
-            className={`text-xl font-bold transition-colors duration-300 ${scrolled ? 'text-white' : 'text-white'}`}
+            className={`font-mono text-xl font-bold transition-colors duration-300 ${scrolled ? 'text-white' : 'text-white'}`}
           >
             James
           </a>
@@ -30,13 +30,13 @@ const NavbarCTA = () => {
           <div className="hidden md:flex space-x-6">
             <a 
               href="/sobre" 
-              className={`text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-white' : 'text-white'}`}
+              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-white' : 'text-white'}`}
             >
               Sobre
             </a>
             <a 
               href="/projetos" 
-              className={`text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-white' : 'text-white'}`}
+              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-white' : 'text-white'}`}
             >
               Projetos
             </a>
@@ -64,14 +64,14 @@ const NavbarCTA = () => {
           <div className="flex flex-col space-y-4">
             <a 
               href="/sobre" 
-              className="text-white text-lg py-2 px-4 hover:bg-white/10 rounded-lg transition-colors duration-300"
+              className="font-mono text-white text-lg py-2 px-4 hover:bg-white/10 rounded-lg transition-colors duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               Sobre
             </a>
             <a 
               href="/projetos" 
-              className="text-white text-lg py-2 px-4 hover:bg-white/10 rounded-lg transition-colors duration-300"
+              className="font-mono text-white text-lg py-2 px-4 hover:bg-white/10 rounded-lg transition-colors duration-300"
               onClick={() => setMobileMenuOpen(false)}
             >
               Projetos
