@@ -1,3 +1,4 @@
+import EfeitoEscrever from "./efeitoEscrever";
 
 function JemisseCta() {
   return (
@@ -19,7 +20,7 @@ function JemisseCta() {
             </defs>
           </svg>
           <div className="mx-auto max-w-md lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <p className="text-sky-600 font-mono">String nome = "James";</p>
+               <EfeitoEscrever />
             <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
               Jemisse Macuacua.
             </h2>
