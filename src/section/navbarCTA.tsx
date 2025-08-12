@@ -21,7 +21,7 @@ const NavbarCTA = () => {
           {/* Logo - Lado Esquerdo */}
           <a 
             href="/" 
-            className={`font-mono text-xl font-bold transition-colors duration-300 ${scrolled ? 'text-white' : 'text-white'}`}
+            className={`font-mono text-xl font-bold transition-colors duration-300 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
           >
             James
           </a>
@@ -30,13 +30,13 @@ const NavbarCTA = () => {
           <div className="hidden md:flex space-x-6">
             <a 
               href="/sobre" 
-              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-white' : 'text-white'}`}
+              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
             >
               Sobre
             </a>
             <a 
               href="/projetos" 
-              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-white' : 'text-white'}`}
+              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
             >
               Projetos
             </a>
@@ -44,7 +44,7 @@ const NavbarCTA = () => {
 
           {/* Botão Mobile */}
           <button 
-            className="md:hidden text-white focus:outline-none"
+            className={`md:hidden  focus:outline-none ${scrolled ? 'text-sky-600 ' : 'text-white'} `}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
