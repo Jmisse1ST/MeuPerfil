@@ -34,7 +34,7 @@ function JemisseCta() {
               Apaixonado por tecnologia.
             </h2>
             <p className="mt-6 text-lg/8 text-pretty text-gray-400  font-mono">
-              Eu sou um Software Developer com mais de 1 ano de experiência em prover soluções para problemas usando tecnologia.
+              Eu sou um Software Developer com mais de 1 ano de experiência em prover soluções para problemas usando tecnologia..
             </p>
             <div className="mt-10 flex   gap-x-6 lg:justify-start font-mono">
               <a
