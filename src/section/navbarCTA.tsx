@@ -13,7 +13,7 @@ const NavbarCTA = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  
+
   return (
     <>
       {/* Navbar Desktop */}
