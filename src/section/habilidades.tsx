@@ -1,5 +1,34 @@
 import Navbar from "./navbarCTA";
 
+import { FaLinux } from 'react-icons/fa';
+import { 
+  
+  SiFigma,
+  SiNotion,
+  SiApache
+} from 'react-icons/si';
+
+import { 
+  FaNodeJs, 
+  FaReact, 
+  FaHtml5, 
+  FaGithub, 
+  FaGitAlt,
+  FaJava,
+  FaCss3Alt,
+  FaSass
+} from 'react-icons/fa';
+import { 
+  SiTypescript,
+  SiTailwindcss,
+  SiVercel,
+  SiMysql,
+  SiJavascript,
+  SiNextdotjs,
+  SiSpring,
+  SiFirebase
+} from 'react-icons/si';
+
 function Habilidades() {
     return (
 
@@ -64,7 +93,7 @@ function Habilidades() {
 
                     <p className="text-base/7 font-semibold bg-gradient-to-t from-sky-400 via-gray-400 to-sky-400 bg-clip-text text-transparent">
 
-                        <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono"></span>
+                        <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono">Hard-Skills</span>
                     </p>
                     <h1 className="mt-2 text-2xl font-semibold text-gray-500">
                         Tecnologias com as quais trabalho
@@ -76,22 +105,85 @@ function Habilidades() {
                     <br />
 
                     <div className="flex flex-wrap gap-2 text-xl/8 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent font-mono">
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">TypeScript</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Node</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">React</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">HTML5</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Tailwind</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">GitHub</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git </span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Vercel</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">MySql</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">JavaScript</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Next</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Java</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Spring Boot</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Firebase</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">CCS3</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">SASS</span>
+                        {/* TypeScript */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiTypescript className="text-blue-600" /> TypeScript
+                        </span>
+
+                        {/* Node */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaNodeJs className="text-green-600" /> Node
+                        </span>
+
+                        {/* React */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaReact className="text-blue-400" /> React
+                        </span>
+
+                        {/* HTML5 */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaHtml5 className="text-orange-500" /> HTML5
+                        </span>
+
+                        {/* Tailwind */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiTailwindcss className="text-cyan-400" /> Tailwind
+                        </span>
+
+                        {/* GitHub */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaGithub /> GitHub
+                        </span>
+
+                        {/* Git */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaGitAlt /> Git
+                        </span>
+
+                        {/* Vercel */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiVercel className="text-black dark/100" /> Vercel
+                        </span>
+
+                        {/* MySQL */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiMysql className="text-blue-500" /> MySql
+                        </span>
+
+                        {/* JavaScript */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiJavascript className="text-yellow-400" /> JavaScript
+                        </span>
+
+                        {/* Next.js */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiNextdotjs className="text-black dark/100" /> Next
+                        </span>
+
+                        {/* Java */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaJava className="text-red-500" /> Java
+                        </span>
+
+                        {/* Spring Boot */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiSpring className="text-green-500" /> Spring Boot
+                        </span>
+
+                        {/* Firebase */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiFirebase className="text-amber-500" /> Firebase
+                        </span>
+
+                        {/* CSS3 */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaCss3Alt className="text-blue-500" /> CSS3
+                        </span>
+
+                        {/* SASS */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaSass className="text-pink-500" /> SASS
+                        </span>
                     </div>
                     <br />
 
@@ -117,7 +209,7 @@ function Habilidades() {
 
                     <p className="text-base/7 font-semibold bg-gradient-to-t from-sky-400 via-gray-400 to-sky-400 bg-clip-text text-transparent">
 
-                        <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono"></span>
+                        <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono">Hard-Skills</span>
                     </p>
                     <h1 className="mt-2 text-2xl font-semibold text-gray-500">
                         Softwares com os quais trabalho
@@ -128,12 +220,35 @@ function Habilidades() {
                     </p>
                     <br />
                     <div className="flex flex-wrap gap-2 text-xl/8 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent font-mono">
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">VsCode</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Linux</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Figma</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">MySql Workbench</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Notion</span>
-                        <span className="border border-gray-300 rounded px-2 py-1 text-sm">Apache NetBeans</span>
+                        {/* VS Code */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            VsCode
+                        </span>
+
+                        {/* Linux */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <FaLinux className="text-black dark" /> Linux
+                        </span>
+
+                        {/* Figma */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiFigma className="text-purple-500" /> Figma
+                        </span>
+
+                        {/* MySQL Workbench */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiMysql className="text-blue-600" /> MySql Workbench
+                        </span>
+
+                        {/* Notion */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiNotion className="text-black dark" /> Notion
+                        </span>
+
+                        {/* Apache NetBeans */}
+                        <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                            <SiApache className="text-red-500" /> Apache NetBeans
+                        </span>
                     </div>
                     <br />
                 </div>

@@ -62,7 +62,7 @@ function CardFilmes() {
                   Portifolio
                 </h1>
                 <p className="mt-3 text-3xl/10 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent">
-                  Uma Single Page Application moderna e responsiva, desenvolvida para destacar minhas habilidades e projetos como Engenheiro de Software.
+                  Uma Single Page Application moderna e responsiva, desenvolvida para destacar minhas habilidades e projetos como Software Developer/Enginner.
                 </p>
               </div>
             </div>
