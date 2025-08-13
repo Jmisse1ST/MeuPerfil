@@ -58,7 +58,7 @@ function Sobre() {
               <div className="">
                 <p className="text-base/7 font-semibold bg-gradient-to-t from-sky-400 via-gray-400 to-sky-400 bg-clip-text text-transparent">
 
-                  <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono">Niche Skills</span>
+                  <span className="border border-gray-100 rounded px-2 py-1 text-sm font-mono">Niche & Soft</span>
                 </p>
                 <h1 className="mt-2 text-2xl font-semibold text-gray-500">
                   Jemisse

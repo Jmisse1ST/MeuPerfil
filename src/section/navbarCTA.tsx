@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 
 const NavbarCTA = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,19 +31,24 @@ const NavbarCTA = () => {
 
           {/* Links - Lado Direito (Desktop) */}
           <div className="hidden md:flex space-x-6">
-            <a 
-              href="/sobre" 
-              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
-            >
-              Sobre
-            </a>
-            <a 
-              href="/projetos" 
-              className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
-            >
-              Projetos
-            </a>
+            <div className="hidden md:flex space-x-6">
+              <a
+                href="/"
+                className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
+              >
+                Sobre
+              </a>
+              <a
+                href="/"
+                className={`font-mono text-lg transition-colors duration-300 hover:text-white/80 ${scrolled ? 'text-sky-600 ' : 'text-white'}`}
+              >
+                Projetos
+              </a>
           </div>
+          </div>
+
+
+          
 
           {/* Botão Mobile */}
           <button 

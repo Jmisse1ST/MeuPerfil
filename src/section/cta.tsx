@@ -3,7 +3,7 @@ import NavbarCTA from "./navbarCTA";
 
 function JemisseCta() {
   return (
-    
+     
     <div className="bg-gray-900">
 
       <NavbarCTA/>
@@ -59,6 +59,7 @@ function JemisseCta() {
         </div>
       </div>
     </div>
+ 
   )
 }
 
