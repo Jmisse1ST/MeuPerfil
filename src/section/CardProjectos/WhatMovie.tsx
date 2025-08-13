@@ -1,3 +1,5 @@
+import { FaReact, FaGithub, FaGithubAlt } from 'react-icons/fa';
+import { SiTypescript, SiTailwindcss, SiVercel } from 'react-icons/si';
 
 function CardFilmes() {
   return (
@@ -87,15 +89,36 @@ function CardFilmes() {
               <div className="max-w-xl text-base/7 text-gray-600 lg:max-w-lg
               py-9
               ">
-
                 <div className="flex flex-wrap gap-2 text-xl/8 bg-gradient-to-r from-gray-800 via-sky-400 to-emerald-800 bg-clip-text text-transparent font-mono">
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">TypeScript</span>
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">React</span>
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Tailwind</span>
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git(Hub)</span>
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Git Actions</span>
-                  <span className="border border-gray-300 rounded px-2 py-1 text-sm">Vercel</span>
-                 
+                  {/* TypeScript */}
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                    <SiTypescript className="text-blue-600" /> TypeScript
+                  </span>
+
+                  {/* React */}
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                    <FaReact className="text-blue-400" /> React
+                  </span>
+
+                  {/* Tailwind */}
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                    <SiTailwindcss className="text-cyan-400" /> Tailwind
+                  </span>
+
+                  {/* Git(Hub) */}
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                    <FaGithub className="text-cyan-700" /> Git(Hub)
+                  </span>
+
+                  {/* Git Actions */}
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                    <FaGithubAlt className="text-cyan-600"/> Git Actions
+                  </span>
+
+                  {/* Vercel */}
+                  <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
+                    <SiVercel className="text-black/100 " /> Vercel
+                  </span>
                 </div>
               </div>
             </div>

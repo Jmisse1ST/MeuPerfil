@@ -141,19 +141,19 @@ function CardUnilib() {
                     <SiTailwindcss className="text-cyan-400" /> Tailwind
                   </span>
 
-                  {/* Git(Hub) */}
+                 {/* Git(Hub) */}
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaGithub /> Git(Hub)
+                    <FaGithub className="text-cyan-700" /> Git(Hub)
                   </span>
 
                   {/* Git Actions */}
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <FaGithubAlt /> Git Actions
+                    <FaGithubAlt className="text-cyan-600"/> Git Actions
                   </span>
 
                   {/* Vercel */}
                   <span className="border border-gray-300 rounded px-2 py-1 text-sm flex items-center gap-1">
-                    <SiVercel className="text-black" /> Vercel
+                    <SiVercel className="text-black/100" /> Vercel
                   </span>
 
                   {/* MySQL */}
